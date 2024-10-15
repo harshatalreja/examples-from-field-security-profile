@@ -4,7 +4,6 @@
 
 This lesson will cover the fundamentals of Field Security Profiles in Dynamics 365. Field Security Profiles in Dynamics 365 allow administrators to control access to specific fields within an entity, protecting sensitive data by restricting user permissions. These profiles let you define who can read, create, or update field data, providing more granular control over security. By enabling field security on a field, organizations can ensure compliance with data privacy regulations and restrict information based on roles. Users or teams can be assigned to specific Field Security Profiles to enforce these restrictions. The lesson will cover creating, configuring, and testing Field Security Profiles. 
 
-
 <br>
 
 ## Learning Objectives :notebook:
@@ -15,7 +14,6 @@ By the end of this lesson, you will be able to:
 - Configure and manage Field Security Profiles in Dynamics 365. 
 - Apply field-level security to control user access to sensitive data. 
 - Test and troubleshoot field security settings. 
-
 
 <br>
 
