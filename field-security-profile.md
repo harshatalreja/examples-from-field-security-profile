@@ -39,21 +39,24 @@ Field Security Profiles in Dynamics 365 allow administrators to control access t
 Field security can be enabled on individual fields within an entity. This process involves marking specific fields, like "Credit Limit" or "Social Security Number," as secure, so that access can be controlled through Field Security Profiles. Once field security is enabled, only users assigned to the relevant profile can view or modify the field. 
 
 
-<u><i>example</i></u>
+<u><i>Example:</i></u>
+
 Suppose you're storing the "Social Security Number (SSN)" field in a contact record. After enabling field security for this field, you configure the profile to allow only Finance users to access it. Users without the profile would see a blank or restricted view of the "Social Security Number" field, depending on the permissions set. 
 
 ### Assigning Users and Teams 
 
 Assigning users or teams to a Field Security Profile determines who has access to the restricted fields. This can be done by navigating to the profile and adding the necessary users or entire teams who require access. Teams allow for easier management when you need to apply the same permissions across multiple users with the same role. 
 
-<u><i>example</i></u>
+<u><i>Example:</i></u>
+
 For example, if you have created a "ConfidentialInfoProfile" for financial fields, you can assign the Finance team to this profile. This will grant all Finance team members the ability to read or update fields like "Annual Revenue" or "Credit Limit" without needing to individually assign each user. 
 
 ### Testing and Troubleshooting Field Security 
 
 Testing field security involves logging in as different users to verify their permissions on the secured fields. You should check that users who have been assigned to the Field Security Profile can access the protected fields, while those without access should see restricted or hidden data. Troubleshooting may involve ensuring field security is enabled and that users/teams are correctly assigned. 
 
-<u><i>example</i></u>
+<u><i>Example:</i></u>
+
 After setting up a "HRAccessProfile" for the "Salary" field, log in as an HR employee and confirm that they can view and update the "Salary" field. Next, log in as a non-HR user, such as a Sales representative, and verify that they cannot see or edit the "Salary" field, confirming the profile is working as intended. 
 
 <br>
